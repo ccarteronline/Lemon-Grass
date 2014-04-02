@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		830FA61818EC453F0035BBAF /* ccarter_footerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 830FA61618EC453F0035BBAF /* ccarter_footerCell.m */; };
+		830FA61918EC453F0035BBAF /* ccarter_footerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830FA61718EC453F0035BBAF /* ccarter_footerCell.xib */; };
+		830FA62218EC50760035BBAF /* footer.png in Resources */ = {isa = PBXBuildFile; fileRef = 830FA62118EC50760035BBAF /* footer.png */; };
+		830FA62518EC57620035BBAF /* ccarter_imgSliderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 830FA62418EC57620035BBAF /* ccarter_imgSliderObject.m */; };
+		830FA62618EC57620035BBAF /* ccarter_imgSliderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 830FA62418EC57620035BBAF /* ccarter_imgSliderObject.m */; };
+		832802FA18E088C3001ED329 /* customCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 832802F918E088C3001ED329 /* customCell.png */; };
+		837C632318DFC1F7006DDA25 /* Slideshow.m in Sources */ = {isa = PBXBuildFile; fileRef = 837C632118DFC1F7006DDA25 /* Slideshow.m */; };
+		837C632418DFC1F7006DDA25 /* Slideshow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 837C632218DFC1F7006DDA25 /* Slideshow.xib */; };
+		837C632818DFCBFA006DDA25 /* slideshowImage_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 837C632718DFCBFA006DDA25 /* slideshowImage_1.png */; };
+		837C632C18DFCE29006DDA25 /* ccarter_AboutUs.m in Sources */ = {isa = PBXBuildFile; fileRef = 837C632A18DFCE29006DDA25 /* ccarter_AboutUs.m */; };
+		837C632D18DFCE29006DDA25 /* ccarter_AboutUs.xib in Resources */ = {isa = PBXBuildFile; fileRef = 837C632B18DFCE29006DDA25 /* ccarter_AboutUs.xib */; };
+		837C633218DFD217006DDA25 /* ccarter_Services.m in Sources */ = {isa = PBXBuildFile; fileRef = 837C633018DFD217006DDA25 /* ccarter_Services.m */; };
+		837C633318DFD217006DDA25 /* ccarter_Services.xib in Resources */ = {isa = PBXBuildFile; fileRef = 837C633118DFD217006DDA25 /* ccarter_Services.xib */; };
+		837C633918DFD3F9006DDA25 /* ccarter_Staff.m in Sources */ = {isa = PBXBuildFile; fileRef = 837C633718DFD3F9006DDA25 /* ccarter_Staff.m */; };
+		837C633A18DFD3F9006DDA25 /* ccarter_Staff.xib in Resources */ = {isa = PBXBuildFile; fileRef = 837C633818DFD3F9006DDA25 /* ccarter_Staff.xib */; };
+		837C633F18DFD564006DDA25 /* ccarter_News.m in Sources */ = {isa = PBXBuildFile; fileRef = 837C633D18DFD564006DDA25 /* ccarter_News.m */; };
+		837C634018DFD564006DDA25 /* ccarter_News.xib in Resources */ = {isa = PBXBuildFile; fileRef = 837C633E18DFD564006DDA25 /* ccarter_News.xib */; };
+		837C634618DFDE7A006DDA25 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 837C634518DFDE7A006DDA25 /* logo.png */; };
+		837C634C18E07A6A006DDA25 /* ccarter_customTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 837C634A18E07A6A006DDA25 /* ccarter_customTableCell.m */; };
+		837C634D18E07A6A006DDA25 /* ccarter_customTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 837C634B18E07A6A006DDA25 /* ccarter_customTableCell.xib */; };
+		83A1AA6118DEA3E0008B6C8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A1AA6018DEA3E0008B6C8C /* Foundation.framework */; };
+		83A1AA6318DEA3E0008B6C8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A1AA6218DEA3E0008B6C8C /* CoreGraphics.framework */; };
+		83A1AA6518DEA3E1008B6C8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A1AA6418DEA3E1008B6C8C /* UIKit.framework */; };
+		83A1AA6B18DEA3E1008B6C8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83A1AA6918DEA3E1008B6C8C /* InfoPlist.strings */; };
+		83A1AA6D18DEA3E1008B6C8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A1AA6C18DEA3E1008B6C8C /* main.m */; };
+		83A1AA7118DEA3E1008B6C8C /* ccarter_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A1AA7018DEA3E1008B6C8C /* ccarter_AppDelegate.m */; };
+		83A1AA7318DEA3E1008B6C8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A1AA7218DEA3E1008B6C8C /* Images.xcassets */; };
+		83A1AA7A18DEA3E1008B6C8C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A1AA7918DEA3E1008B6C8C /* XCTest.framework */; };
+		83A1AA7B18DEA3E1008B6C8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A1AA6018DEA3E0008B6C8C /* Foundation.framework */; };
+		83A1AA7C18DEA3E1008B6C8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A1AA6418DEA3E1008B6C8C /* UIKit.framework */; };
+		83A1AA8418DEA3E1008B6C8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83A1AA8218DEA3E1008B6C8C /* InfoPlist.strings */; };
+		83A1AA8618DEA3E1008B6C8C /* Lemon_GrassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A1AA8518DEA3E1008B6C8C /* Lemon_GrassTests.m */; };
+		83A1AA9618DEA436008B6C8C /* ccarter_myTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A1AA9518DEA436008B6C8C /* ccarter_myTableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83A1AA7D18DEA3E1008B6C8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A1AA5518DEA3E0008B6C8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A1AA5C18DEA3E0008B6C8C;
+			remoteInfo = "Lemon Grass";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		830FA61518EC453F0035BBAF /* ccarter_footerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccarter_footerCell.h; sourceTree = "<group>"; };
+		830FA61618EC453F0035BBAF /* ccarter_footerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccarter_footerCell.m; sourceTree = "<group>"; };
+		830FA61718EC453F0035BBAF /* ccarter_footerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ccarter_footerCell.xib; sourceTree = "<group>"; };
+		830FA62118EC50760035BBAF /* footer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footer.png; sourceTree = "<group>"; };
+		830FA62318EC57620035BBAF /* ccarter_imgSliderObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccarter_imgSliderObject.h; path = ../ccarter_imgSliderObject.h; sourceTree = "<group>"; };
+		830FA62418EC57620035BBAF /* ccarter_imgSliderObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ccarter_imgSliderObject.m; path = ../ccarter_imgSliderObject.m; sourceTree = "<group>"; };
+		832802F918E088C3001ED329 /* customCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customCell.png; sourceTree = "<group>"; };
+		837C632018DFC1F7006DDA25 /* Slideshow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Slideshow.h; path = ../Slideshow.h; sourceTree = "<group>"; };
+		837C632118DFC1F7006DDA25 /* Slideshow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Slideshow.m; path = ../Slideshow.m; sourceTree = "<group>"; };
+		837C632218DFC1F7006DDA25 /* Slideshow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Slideshow.xib; path = ../Slideshow.xib; sourceTree = "<group>"; };
+		837C632718DFCBFA006DDA25 /* slideshowImage_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slideshowImage_1.png; sourceTree = "<group>"; };
+		837C632918DFCE29006DDA25 /* ccarter_AboutUs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccarter_AboutUs.h; sourceTree = "<group>"; };
+		837C632A18DFCE29006DDA25 /* ccarter_AboutUs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccarter_AboutUs.m; sourceTree = "<group>"; };
+		837C632B18DFCE29006DDA25 /* ccarter_AboutUs.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ccarter_AboutUs.xib; sourceTree = "<group>"; };
+		837C632F18DFD217006DDA25 /* ccarter_Services.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccarter_Services.h; path = "Lemon Grass/ccarter_Services.h"; sourceTree = "<group>"; };
+		837C633018DFD217006DDA25 /* ccarter_Services.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ccarter_Services.m; path = "Lemon Grass/ccarter_Services.m"; sourceTree = "<group>"; };
+		837C633118DFD217006DDA25 /* ccarter_Services.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ccarter_Services.xib; path = "Lemon Grass/ccarter_Services.xib"; sourceTree = "<group>"; };
+		837C633618DFD3F9006DDA25 /* ccarter_Staff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccarter_Staff.h; sourceTree = "<group>"; };
+		837C633718DFD3F9006DDA25 /* ccarter_Staff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccarter_Staff.m; sourceTree = "<group>"; };
+		837C633818DFD3F9006DDA25 /* ccarter_Staff.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ccarter_Staff.xib; sourceTree = "<group>"; };
+		837C633C18DFD564006DDA25 /* ccarter_News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccarter_News.h; sourceTree = "<group>"; };
+		837C633D18DFD564006DDA25 /* ccarter_News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccarter_News.m; sourceTree = "<group>"; };
+		837C633E18DFD564006DDA25 /* ccarter_News.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ccarter_News.xib; sourceTree = "<group>"; };
+		837C634518DFDE7A006DDA25 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		837C634918E07A6A006DDA25 /* ccarter_customTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccarter_customTableCell.h; sourceTree = "<group>"; };
+		837C634A18E07A6A006DDA25 /* ccarter_customTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccarter_customTableCell.m; sourceTree = "<group>"; };
+		837C634B18E07A6A006DDA25 /* ccarter_customTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ccarter_customTableCell.xib; sourceTree = "<group>"; };
+		83A1AA5D18DEA3E0008B6C8C /* Lemon Grass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lemon Grass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A1AA6018DEA3E0008B6C8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83A1AA6218DEA3E0008B6C8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83A1AA6418DEA3E1008B6C8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83A1AA6818DEA3E1008B6C8C /* Lemon Grass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lemon Grass-Info.plist"; sourceTree = "<group>"; };
+		83A1AA6A18DEA3E1008B6C8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83A1AA6C18DEA3E1008B6C8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83A1AA6E18DEA3E1008B6C8C /* Lemon Grass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lemon Grass-Prefix.pch"; sourceTree = "<group>"; };
+		83A1AA6F18DEA3E1008B6C8C /* ccarter_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ccarter_AppDelegate.h; sourceTree = "<group>"; };
+		83A1AA7018DEA3E1008B6C8C /* ccarter_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ccarter_AppDelegate.m; sourceTree = "<group>"; };
+		83A1AA7218DEA3E1008B6C8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		83A1AA7818DEA3E1008B6C8C /* Lemon GrassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lemon GrassTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A1AA7918DEA3E1008B6C8C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		83A1AA8118DEA3E1008B6C8C /* Lemon GrassTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lemon GrassTests-Info.plist"; sourceTree = "<group>"; };
+		83A1AA8318DEA3E1008B6C8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83A1AA8518DEA3E1008B6C8C /* Lemon_GrassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lemon_GrassTests.m; sourceTree = "<group>"; };
+		83A1AA9418DEA436008B6C8C /* ccarter_myTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccarter_myTableView.h; path = ../ccarter_myTableView.h; sourceTree = "<group>"; };
+		83A1AA9518DEA436008B6C8C /* ccarter_myTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ccarter_myTableView.m; path = ../ccarter_myTableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83A1AA5A18DEA3E0008B6C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A1AA6318DEA3E0008B6C8C /* CoreGraphics.framework in Frameworks */,
+				83A1AA6518DEA3E1008B6C8C /* UIKit.framework in Frameworks */,
+				83A1AA6118DEA3E0008B6C8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A1AA7518DEA3E1008B6C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A1AA7A18DEA3E1008B6C8C /* XCTest.framework in Frameworks */,
+				83A1AA7C18DEA3E1008B6C8C /* UIKit.framework in Frameworks */,
+				83A1AA7B18DEA3E1008B6C8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		830FA61C18EC49120035BBAF /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				830FA61518EC453F0035BBAF /* ccarter_footerCell.h */,
+				830FA61618EC453F0035BBAF /* ccarter_footerCell.m */,
+				830FA61718EC453F0035BBAF /* ccarter_footerCell.xib */,
+			);
+			name = Footer;
+			sourceTree = "<group>";
+		};
+		837C632518DFC202006DDA25 /* Slideshow */ = {
+			isa = PBXGroup;
+			children = (
+				837C632018DFC1F7006DDA25 /* Slideshow.h */,
+				837C632118DFC1F7006DDA25 /* Slideshow.m */,
+				830FA62318EC57620035BBAF /* ccarter_imgSliderObject.h */,
+				830FA62418EC57620035BBAF /* ccarter_imgSliderObject.m */,
+				837C632218DFC1F7006DDA25 /* Slideshow.xib */,
+			);
+			name = Slideshow;
+			sourceTree = "<group>";
+		};
+		837C632618DFCB5A006DDA25 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				832802F918E088C3001ED329 /* customCell.png */,
+				830FA62118EC50760035BBAF /* footer.png */,
+				837C634518DFDE7A006DDA25 /* logo.png */,
+				837C632718DFCBFA006DDA25 /* slideshowImage_1.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		837C632E18DFCE35006DDA25 /* About Us */ = {
+			isa = PBXGroup;
+			children = (
+				837C632918DFCE29006DDA25 /* ccarter_AboutUs.h */,
+				837C632A18DFCE29006DDA25 /* ccarter_AboutUs.m */,
+				837C632B18DFCE29006DDA25 /* ccarter_AboutUs.xib */,
+			);
+			name = "About Us";
+			sourceTree = "<group>";
+		};
+		837C633418DFD229006DDA25 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				837C632F18DFD217006DDA25 /* ccarter_Services.h */,
+				837C633018DFD217006DDA25 /* ccarter_Services.m */,
+				837C633118DFD217006DDA25 /* ccarter_Services.xib */,
+			);
+			name = Services;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		837C633518DFD3AB006DDA25 /* Staff */ = {
+			isa = PBXGroup;
+			children = (
+				837C633618DFD3F9006DDA25 /* ccarter_Staff.h */,
+				837C633718DFD3F9006DDA25 /* ccarter_Staff.m */,
+				837C633818DFD3F9006DDA25 /* ccarter_Staff.xib */,
+			);
+			name = Staff;
+			sourceTree = "<group>";
+		};
+		837C633B18DFD54C006DDA25 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				837C633C18DFD564006DDA25 /* ccarter_News.h */,
+				837C633D18DFD564006DDA25 /* ccarter_News.m */,
+				837C633E18DFD564006DDA25 /* ccarter_News.xib */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		837C634E18E07A70006DDA25 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				837C634918E07A6A006DDA25 /* ccarter_customTableCell.h */,
+				837C634A18E07A6A006DDA25 /* ccarter_customTableCell.m */,
+				837C634B18E07A6A006DDA25 /* ccarter_customTableCell.xib */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		83A1AA5418DEA3E0008B6C8C = {
+			isa = PBXGroup;
+			children = (
+				83A1AA6618DEA3E1008B6C8C /* Lemon Grass */,
+				83A1AA7F18DEA3E1008B6C8C /* Lemon GrassTests */,
+				83A1AA5F18DEA3E0008B6C8C /* Frameworks */,
+				83A1AA5E18DEA3E0008B6C8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83A1AA5E18DEA3E0008B6C8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83A1AA5D18DEA3E0008B6C8C /* Lemon Grass.app */,
+				83A1AA7818DEA3E1008B6C8C /* Lemon GrassTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83A1AA5F18DEA3E0008B6C8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83A1AA6018DEA3E0008B6C8C /* Foundation.framework */,
+				83A1AA6218DEA3E0008B6C8C /* CoreGraphics.framework */,
+				83A1AA6418DEA3E1008B6C8C /* UIKit.framework */,
+				83A1AA7918DEA3E1008B6C8C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83A1AA6618DEA3E1008B6C8C /* Lemon Grass */ = {
+			isa = PBXGroup;
+			children = (
+				830FA61C18EC49120035BBAF /* Footer */,
+				837C633B18DFD54C006DDA25 /* News */,
+				837C633518DFD3AB006DDA25 /* Staff */,
+				837C632618DFCB5A006DDA25 /* Images */,
+				837C633418DFD229006DDA25 /* Services */,
+				837C632E18DFCE35006DDA25 /* About Us */,
+				83A1AA9518DEA436008B6C8C /* ccarter_myTableView.m */,
+				83A1AA9418DEA436008B6C8C /* ccarter_myTableView.h */,
+				83A1AA6F18DEA3E1008B6C8C /* ccarter_AppDelegate.h */,
+				83A1AA7018DEA3E1008B6C8C /* ccarter_AppDelegate.m */,
+				837C634E18E07A70006DDA25 /* Custom Cells */,
+				837C632518DFC202006DDA25 /* Slideshow */,
+				83A1AA7218DEA3E1008B6C8C /* Images.xcassets */,
+				83A1AA6718DEA3E1008B6C8C /* Supporting Files */,
+			);
+			path = "Lemon Grass";
+			sourceTree = "<group>";
+		};
+		83A1AA6718DEA3E1008B6C8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83A1AA6818DEA3E1008B6C8C /* Lemon Grass-Info.plist */,
+				83A1AA6918DEA3E1008B6C8C /* InfoPlist.strings */,
+				83A1AA6C18DEA3E1008B6C8C /* main.m */,
+				83A1AA6E18DEA3E1008B6C8C /* Lemon Grass-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83A1AA7F18DEA3E1008B6C8C /* Lemon GrassTests */ = {
+			isa = PBXGroup;
+			children = (
+				83A1AA8518DEA3E1008B6C8C /* Lemon_GrassTests.m */,
+				83A1AA8018DEA3E1008B6C8C /* Supporting Files */,
+			);
+			path = "Lemon GrassTests";
+			sourceTree = "<group>";
+		};
+		83A1AA8018DEA3E1008B6C8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83A1AA8118DEA3E1008B6C8C /* Lemon GrassTests-Info.plist */,
+				83A1AA8218DEA3E1008B6C8C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83A1AA5C18DEA3E0008B6C8C /* Lemon Grass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A1AA8918DEA3E1008B6C8C /* Build configuration list for PBXNativeTarget "Lemon Grass" */;
+			buildPhases = (
+				83A1AA5918DEA3E0008B6C8C /* Sources */,
+				83A1AA5A18DEA3E0008B6C8C /* Frameworks */,
+				83A1AA5B18DEA3E0008B6C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lemon Grass";
+			productName = "Lemon Grass";
+			productReference = 83A1AA5D18DEA3E0008B6C8C /* Lemon Grass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83A1AA7718DEA3E1008B6C8C /* Lemon GrassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A1AA8C18DEA3E1008B6C8C /* Build configuration list for PBXNativeTarget "Lemon GrassTests" */;
+			buildPhases = (
+				83A1AA7418DEA3E1008B6C8C /* Sources */,
+				83A1AA7518DEA3E1008B6C8C /* Frameworks */,
+				83A1AA7618DEA3E1008B6C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83A1AA7E18DEA3E1008B6C8C /* PBXTargetDependency */,
+			);
+			name = "Lemon GrassTests";
+			productName = "Lemon GrassTests";
+			productReference = 83A1AA7818DEA3E1008B6C8C /* Lemon GrassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83A1AA5518DEA3E0008B6C8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ccarter_;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = CCarterOnline;
+				TargetAttributes = {
+					83A1AA7718DEA3E1008B6C8C = {
+						TestTargetID = 83A1AA5C18DEA3E0008B6C8C;
+					};
+				};
+			};
+			buildConfigurationList = 83A1AA5818DEA3E0008B6C8C /* Build configuration list for PBXProject "Lemon Grass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83A1AA5418DEA3E0008B6C8C;
+			productRefGroup = 83A1AA5E18DEA3E0008B6C8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83A1AA5C18DEA3E0008B6C8C /* Lemon Grass */,
+				83A1AA7718DEA3E1008B6C8C /* Lemon GrassTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83A1AA5B18DEA3E0008B6C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830FA62218EC50760035BBAF /* footer.png in Resources */,
+				837C632818DFCBFA006DDA25 /* slideshowImage_1.png in Resources */,
+				830FA61918EC453F0035BBAF /* ccarter_footerCell.xib in Resources */,
+				832802FA18E088C3001ED329 /* customCell.png in Resources */,
+				837C634018DFD564006DDA25 /* ccarter_News.xib in Resources */,
+				837C634D18E07A6A006DDA25 /* ccarter_customTableCell.xib in Resources */,
+				837C634618DFDE7A006DDA25 /* logo.png in Resources */,
+				837C633A18DFD3F9006DDA25 /* ccarter_Staff.xib in Resources */,
+				837C632418DFC1F7006DDA25 /* Slideshow.xib in Resources */,
+				837C633318DFD217006DDA25 /* ccarter_Services.xib in Resources */,
+				83A1AA6B18DEA3E1008B6C8C /* InfoPlist.strings in Resources */,
+				83A1AA7318DEA3E1008B6C8C /* Images.xcassets in Resources */,
+				837C632D18DFCE29006DDA25 /* ccarter_AboutUs.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A1AA7618DEA3E1008B6C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A1AA8418DEA3E1008B6C8C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83A1AA5918DEA3E0008B6C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837C633918DFD3F9006DDA25 /* ccarter_Staff.m in Sources */,
+				837C633F18DFD564006DDA25 /* ccarter_News.m in Sources */,
+				830FA62518EC57620035BBAF /* ccarter_imgSliderObject.m in Sources */,
+				837C633218DFD217006DDA25 /* ccarter_Services.m in Sources */,
+				837C632318DFC1F7006DDA25 /* Slideshow.m in Sources */,
+				83A1AA6D18DEA3E1008B6C8C /* main.m in Sources */,
+				837C634C18E07A6A006DDA25 /* ccarter_customTableCell.m in Sources */,
+				837C632C18DFCE29006DDA25 /* ccarter_AboutUs.m in Sources */,
+				83A1AA9618DEA436008B6C8C /* ccarter_myTableView.m in Sources */,
+				83A1AA7118DEA3E1008B6C8C /* ccarter_AppDelegate.m in Sources */,
+				830FA61818EC453F0035BBAF /* ccarter_footerCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A1AA7418DEA3E1008B6C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830FA62618EC57620035BBAF /* ccarter_imgSliderObject.m in Sources */,
+				83A1AA8618DEA3E1008B6C8C /* Lemon_GrassTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83A1AA7E18DEA3E1008B6C8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83A1AA5C18DEA3E0008B6C8C /* Lemon Grass */;
+			targetProxy = 83A1AA7D18DEA3E1008B6C8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83A1AA6918DEA3E1008B6C8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A1AA6A18DEA3E1008B6C8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83A1AA8218DEA3E1008B6C8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A1AA8318DEA3E1008B6C8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83A1AA8718DEA3E1008B6C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83A1AA8818DEA3E1008B6C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83A1AA8A18DEA3E1008B6C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lemon Grass/Lemon Grass-Prefix.pch";
+				INFOPLIST_FILE = "Lemon Grass/Lemon Grass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83A1AA8B18DEA3E1008B6C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lemon Grass/Lemon Grass-Prefix.pch";
+				INFOPLIST_FILE = "Lemon Grass/Lemon Grass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		83A1AA8D18DEA3E1008B6C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lemon Grass.app/Lemon Grass";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lemon Grass/Lemon Grass-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lemon GrassTests/Lemon GrassTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		83A1AA8E18DEA3E1008B6C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lemon Grass.app/Lemon Grass";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lemon Grass/Lemon Grass-Prefix.pch";
+				INFOPLIST_FILE = "Lemon GrassTests/Lemon GrassTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83A1AA5818DEA3E0008B6C8C /* Build configuration list for PBXProject "Lemon Grass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A1AA8718DEA3E1008B6C8C /* Debug */,
+				83A1AA8818DEA3E1008B6C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A1AA8918DEA3E1008B6C8C /* Build configuration list for PBXNativeTarget "Lemon Grass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A1AA8A18DEA3E1008B6C8C /* Debug */,
+				83A1AA8B18DEA3E1008B6C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A1AA8C18DEA3E1008B6C8C /* Build configuration list for PBXNativeTarget "Lemon GrassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A1AA8D18DEA3E1008B6C8C /* Debug */,
+				83A1AA8E18DEA3E1008B6C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83A1AA5518DEA3E0008B6C8C /* Project object */;
+}
